@@ -24,7 +24,7 @@ environments {
     driver = driverRemote
   }
 
-  functional01 {
+  func01 {
     baseUrl = "http://anbu-presentation-func01.herokuapp.com"
     driver = driverRemote
   }

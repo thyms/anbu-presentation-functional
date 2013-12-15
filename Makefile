@@ -8,7 +8,7 @@ test-app:
 
 test-app-ci:
 	npm install phantomjs
-	./gradlew clean testHeadless -Dgeb.env=functional01 -Dtest.env=functional01
+	./gradlew clean testHeadless -Dgeb.env=func01 -Dtest.env=func01
 	tar cvf anbu-presentation-test-results-$(BUILD_ID).tar.gz build/reports/tests
 
 test-open-results:

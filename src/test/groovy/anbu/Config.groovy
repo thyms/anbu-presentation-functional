@@ -10,7 +10,7 @@ stubulator {
 }
 
 environments {
-  functional01 {
+  func01 {
     presentation {
       baseUrl = "http://anbu-presentation-func01.herokuapp.com/"
       baseContext = ""
