@@ -14,7 +14,7 @@ test-app-ci:
 test-open-results:
 	open build/reports/tests/index.html
 
-setup-app:
+setup-project:
 	echo 'No configuration to setup for this project'
 
 .PHONY: no_targets__ list
