@@ -7,8 +7,8 @@ class StatusPage extends BasePage {
   static url = PathPresentation.STATUS
 
   static at = {
-    title == "anbu Presentation Admin"
-    header.text() == "anbu Presentation Status"
+    title == "anbu presentation admin"
+    header.text() == "anbu presentation status"
   }
 
   static content = {
